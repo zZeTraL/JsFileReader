@@ -1,0 +1,151 @@
+/*******************************************************
+*  EDITOR                                              *
+********************************************************/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #34495e;
+}
+
+main {
+    width: 85%;
+    height: auto;
+    margin: auto;
+}
+
+/**********************
+* Drop zone
+***********************/
+.drop-container {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    height: auto;
+}
+
+.drop-frame {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: inherit;
+    border: 5px solid white;
+    border-radius: 50px;
+    background-color: white;
+    filter: drop-shadow(0 0 1.25rem white);
+}
+
+/**********************
+* File
+***********************/
+.drop-input {
+    display: none;
+}
+
+.drop-header-text {
+    margin-top: 15px;
+}
+
+.drop-header-text h2 {
+    color: #3F3F3F;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 2.25rem;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.drop-header-text p {
+    color: #ADABB0;
+    font-family: "Roboto-Regular", sans-serif;
+    font-weight: 500;
+    font-size: 1.05rem;
+    text-align: center;
+    margin: 0;
+}
+
+.drop-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    height: 300px;
+    margin: 25px 0px 40px 0px;
+    border-style: dashed;
+    border-color: #b0bcd6;
+    border-width: 3px;
+    border-radius: 50px;
+    background-color: #E7EFFB;
+    cursor: pointer;
+}
+
+.drop-area-over {
+    border-style: solid;
+}
+
+.drop-folder-svg {
+    align-items: center;
+    flex-grow: 0;
+}
+
+.drop-folder-svg svg {
+    width: 100px;
+    height: 100px;
+}
+
+.drop-folder-desc {
+    align-items: center;
+}
+
+.drop-folder-desc p {
+    color: #ADABB0;
+    font-family: "Roboto-Light", sans-serif;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/**********************
+* DEPRECATED
+***********************/
+.reader-container {
+    font-size: 1.25rem;
+    letter-spacing: 3px;
+    margin-top: 75px;
+    color: white;
+    text-align: center;
+    font-family: "BebasNeue-Regular", sans-serif;
+}
+
+/**********************
+* Utils
+***********************/
+
+/***************
+* Polices
+****************/
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url("../fonts/BebasNeue-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url("../fonts/RobotoCondensed-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url("../fonts/RobotoCondensed-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Pattaya-Regular';
+    src: url("../fonts/Pattaya-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../fonts/OpenSans-Regular.ttf') format("truetype"); 
+  }

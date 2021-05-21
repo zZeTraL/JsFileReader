@@ -1,0 +1,80 @@
+/*******************************************************
+*  MAIN                                                *
+********************************************************/
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #34495e;
+}
+
+.drop-zone {
+    margin: 100px auto 100px auto;
+    max-width: 600px;
+    height: 400px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    color: #cccccc;
+    border: 4px dashed beige;
+    border-radius: 10px;
+  }
+  
+  .drop-zone-over {
+    border-style: solid;
+  }
+  
+  .drop-zone-input {
+    display: none;
+  }
+  
+.container {
+    height: auto;
+    margin: auto;
+}
+
+.container pre {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.h2-title {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px;
+  margin-bottom: 15px;
+}
+
+.link-v2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.link-v2 a {
+  color: wheat;
+  text-decoration: none;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.link-v2 a:hover {
+  color: grey;
+}
+
+.link-v2 span {
+  color: white;
+  font-size: 1.25rem;
+  text-align: center;
+}
+

@@ -12,7 +12,7 @@
 <body>
     <main>
         <section class="drop-container">
-            <div class="drop-frame">
+            <div id="test" class="drop-frame">
                 <div class="drop-header-text">
                     <h2>Upload your files</h2>
                     <p>File should be .txt or .yaml</p>
@@ -35,6 +35,7 @@
     </main>
 
     <script src="js/FileManager.js"></script>
+    <script src="js/Responsive.js"></script>
 
 </body>
 </html>

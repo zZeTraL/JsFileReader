@@ -1,5 +1,5 @@
-let string = '';
-let squareSize = 0;
+var string = '';
+var squareSize = 0;
 
 document.querySelectorAll(".drop-input").forEach(element => {
     const dropZoneElement = element.closest(".drop-area");

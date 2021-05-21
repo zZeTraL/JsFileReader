@@ -1,6 +1,10 @@
 /*******************************************************
 *  EDITOR                                              *
 ********************************************************/
+:root {
+    --dropFrameWidth: 35%;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -18,8 +22,9 @@ main {
 ***********************/
 .drop-container {
     margin: 100px auto 100px auto;
-    width: 50%;
+    width: var(--dropFrameWidth);
     height: auto;
+    transition: ease all .5s;
 }
 
 .drop-frame {
@@ -119,12 +124,33 @@ main {
 }
 
 /**********************
+* Responsive
+***********************/
+@media only screen and (min-width:501px) {
+    /*.drop-container {
+        --width: 35%
+    }*/
+}
+
+@media only screen and (max-width:900px) {
+
+}
+
+@media only screen and (max-width:700px) {
+
+}
+
+@media only screen and (max-width:500px) {
+
+}
+
+/**********************
 * Utils
 ***********************/
 
-/***************
+/**********************
 * Polices
-****************/
+***********************/
 @font-face {
     font-family: 'BebasNeue-Regular';
     src: url("../fonts/BebasNeue-Regular.ttf") format("truetype");

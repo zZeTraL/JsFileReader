@@ -11,9 +11,10 @@ window.addEventListener("resize", function(){
 
 function setDropFrameWidth(){
     screenWidth = window.innerWidth;
-    //console.log(window.innerWidth);
+    console.log(window.innerWidth);
     if(screenWidth < 1500){
-        let result = 100 - ((screenWidth*65)/1500);
+        //let result = 100 - ((screenWidth*65)/1500);
+        let result = 100 - ((screenWidth*65)/1500) + 5;
         root.style.setProperty("--dropFrameWidth", result + "%");
         return;
     }

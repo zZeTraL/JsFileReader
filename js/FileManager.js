@@ -40,6 +40,7 @@ document.querySelectorAll(".drop-input").forEach(element => {
 
 });
 
+
 /**
  * getFileFormat allows to get the file format of any file
  * 
@@ -51,8 +52,6 @@ function getFileFormat(fileName){
     var parts = fileName.split(".");
     return parts[parts.length - 1];
 }
-
-
 
 
 /**
@@ -113,6 +112,7 @@ function readFile(file) {
 
     reader.readAsText(file[0])
 }
+
 
 /**
 * getSquareSize return the size of the square
